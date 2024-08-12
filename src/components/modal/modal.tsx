@@ -2,7 +2,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 
-export default function Modal({ children }: { children: React.ReactNode }) {
+const Modal = ({ children }: { children: React.ReactNode }) => {
   const overlay = React.useRef(null);
   const wrapper = React.useRef(null);
   const router = useRouter();
@@ -47,3 +47,5 @@ export default function Modal({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
+
+export default Modal;

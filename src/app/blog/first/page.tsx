@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const FirstBlog = () => {
+const FirstBlog = () => {
   return (
     <div>First Blog page</div>
   )

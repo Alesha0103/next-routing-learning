@@ -1,3 +1,5 @@
+import React from "react";
+
 import Link from "next/link";
 import wonders from "./wonders";
 import Image from "next/image";

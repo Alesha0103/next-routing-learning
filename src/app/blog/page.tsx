@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   },
 }
 
-export const Blog = () => {
+const Blog = () => {
   return (
     <div>Blog page</div>
   )
